@@ -1,5 +1,7 @@
 
 :root{
+    --font-family:'Open Sans',sans-serif;
+
     --secondary-bg:#313030;
     --accent-color:#FF3F40;
     --text-color:#ffffff;
@@ -22,7 +24,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans',sans-serif;
+    font-family: var(--font-family);
     color:#333333;
 }
 .container{
